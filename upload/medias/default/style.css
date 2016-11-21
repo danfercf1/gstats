@@ -1,0 +1,449 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	
+	background: #fff url(background.jpg) fixed top center no-repeat;
+}
+
+div.container
+{
+	margin: 0 auto ;
+	padding: 0 ;
+	
+	width: 1039px;
+}
+
+div.header
+{
+	margin: 0;
+	padding: 0;
+	
+	width: 1039px;
+	height: 101px;
+}
+
+div.header_top
+{
+	margin: 0;
+	padding: 0;
+	
+	width: 1039px;
+	height: 57px;
+}
+
+div.header_menu
+{
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	
+	width: 1039px;
+	height: 38px;
+	
+	background: url(header_menu.png) no-repeat;
+}
+
+div.header_menu_container
+{
+	margin: 0;
+	padding: 0;
+	
+	width: 1029px;
+	height: 38px;
+}
+
+table.header_menu
+{
+	margin: 0;
+	padding: 0;
+	
+	width: 1029px;
+	height: 38px;
+}
+
+td.header_menu, td.header_menu_selected, td.header_menufirst, td.header_menufirst_selected, td.header_menulast_selected
+{
+	margin: 0;
+	padding: 0;
+	
+	height: 100%;
+}
+
+td.header_menu
+{
+	border-left: 1px solid black;
+}
+
+td.header_menu_selected
+{
+	border-left: 1px solid black;
+	background: url(header_menu_selected_bg.png) repeat-x;
+}
+
+td.header_menufirst_selected
+{
+	background: url(header_menu_selected_left.png) no-repeat;
+}
+
+td.header_menulast_selected
+{
+	border-left: 1px solid black;
+	background: url(header_menu_selected_right.png) no-repeat right;
+}
+
+td.header_menu a, td.header_menu_selected a, td.header_menufirst a, td.header_menufirst_selected a, td.header_menulast_selected a
+{
+	margin: 0;
+	padding: 0;
+	
+	display: block; 
+	height: 100%; 
+	width: 100%; 
+	
+	text-align: center;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+td.header_menu a div, td.header_menu_selected a div, td.header_menufirst a div, td.header_menufirst_selected a div, td.header_menulast_selected a div
+{
+	margin: 0;
+	padding: 0;
+	
+	height: 12px;
+}
+
+div.base
+{
+	margin-top: 11px;
+	margin-bottom: 45px;
+	padding: 0;
+	
+	background: url(base_top.png) top no-repeat;
+}
+
+div.base2
+{
+	position: relative;
+	top: 17px;
+	
+	width: 1039px;
+	background: url(base_bg.png) repeat-y;
+}
+
+div.base3
+{
+	position: relative;
+	top: -17px;
+	
+	width: 1039px;
+}
+
+div.base_bottom
+{
+	position: absolute;
+	bottom: -17px;
+	
+	margin: 0;
+	padding: 0;
+	
+	width: 1039px;
+	height: 17px;
+	
+	background: url(base_bottom.png);
+}
+
+div.footer
+{
+	margin: 0;
+	padding: 0;
+	
+	width: 1039px;
+	height: 67px;
+}
+
+div.content
+{
+	margin: 0;
+	width: 1019px;
+	padding: 10px;
+}
+
+div.content p
+{
+	margin-bottom: 10px;
+	padding: 0;
+	
+	text-align: justify;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+div.content h1
+{
+	margin-bottom: 10px;
+	padding: 0;
+	
+	text-align: left;
+	color: #000;
+	text-decoration: none;	
+	font-size: 16px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+div.fullcontent
+{
+	margin: 0;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 1029px;
+}
+
+
+
+table.display
+{
+	background: url(table_fullhead.png) no-repeat;
+}
+
+table.display thead tr
+{
+	width: 1029px;
+	height: 42px;
+}
+
+table.display tbody
+{
+	background: url(table_row.png);
+}
+
+table.display tbody tr
+{
+	width: 1029px;
+	height: 36px;
+}
+
+table.display2
+{
+	background: url(table_head_bg.png) repeat-x;
+	border-top: 1px solid #b6b6b6;
+}
+
+table.display2 thead tr
+{
+	width: 1029px;
+	height: 42px;
+}
+
+table.display2 tfoot tr
+{
+	width: 1029px;
+	height: 42px;
+	background: url(table_head_bg.png) repeat-x;
+}
+
+table.display2 tbody
+{
+	background: url(table_row.png);
+}
+
+table.display2 tbody tr
+{
+	width: 1029px;
+	height: 36px;
+}
+
+table tbody tr td a
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+table tbody tr td a:hover
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+td.dataTable_firstcolumn, td.dataTable_column
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 36px;
+	
+	text-align: center;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+td.dataTable_column
+{
+	border-left: 1px solid #b6b6b6;
+}
+
+.dataTable_selectedrow
+{
+	background: url(table_selectedrow.png) repeat-x;
+}
+
+td.dataTable_empty
+{
+	padding-top: 6px;
+	text-align: center;
+}
+
+div.dataTable_norecords
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	text-align: center;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+div.dataTable_bottom
+{
+	width: 1019px;
+	height: 27px;
+	
+	margin: 0;
+	padding: 5px;
+	padding-top: 10px;
+	
+	background: url(table_head_bg.png) repeat-x;
+}
+
+div.dataTable_search
+{
+	float: left;
+	
+	margin: 0;
+	padding: 0;
+	
+	width: 50%x;
+	height: 27px;
+	
+	text-align: left;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+div.dataTable_search input
+{
+	border: 1px solid #b6b6b6;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	padding: 2px 5px;
+	
+	width: 175px;
+	
+	text-align: left;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+div.dataTable_paginate
+{
+	float: right;
+	
+	margin: 0;
+	padding-top: 4px;
+	
+	width: 50%;
+	height: 23px;
+	
+	text-align: right;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+div.dataTable_info
+{
+	padding-top: 30px;
+	
+	width: 1029px;
+	
+	text-align: center;
+	color: #000;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+div.dataTable_paginate span.paginate_button, div.dataTable_paginate span.paginate_active 
+{
+	border: 1px solid #b6b6b6;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	padding: 2px 5px;
+	margin: 0 3px;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+div.dataTable_paginate span.paginate_button 
+{
+	background-color: #fff;
+}
+
+div.dataTable_paginate span.paginate_button:hover 
+{
+	background-color: #eee;
+	font-weight: bold;
+}
+
+div.dataTable_paginate span.paginate_active 
+{
+	background-color: #66a0ff;
+	font-weight: bold;
+}
+
+img.status_image
+{
+	margin-top: 5px;
+	padding: 0;
+	border: 0;
+}
+
+.tooltip{
+   position: absolute;
+   padding: 10px 13px;
+   z-index: 2;
+   
+   color: #303030;
+   background-color: #f5f5b5;
+   border: 1px solid #DECA7E;
+   
+   font-family: sans-serif;
+   font-size: 12px;
+   line-height: 18px;
+   text-align: center;
+}

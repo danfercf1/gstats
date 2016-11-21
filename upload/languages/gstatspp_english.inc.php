@@ -1,0 +1,188 @@
+<?php
+	
+/* This is the English language file for GStats++ 1.0 Beta */
+
+$_lang = array(
+
+	'General' => array(
+		'First' => 'First',
+		'Previous' => 'Previous',
+		'Next' => 'Next',
+		'Last' => 'Last',
+		'Info' => 'Showing _START_ to _END_ of _TOTAL_ entries',
+		'InfoFiltered' => '(filtered from _MAX_ total entries)',
+		'InfoEmpty' => 'No records',
+		'Search' => 'Search:',
+		'NoMatchingRecordsFound' => 'No matching records found',
+		'Red' => 'Red',
+		'Blue' => 'Blue',
+		'Teal' => 'Teal',
+		'Purple' => 'Purple',
+		'Yellow' => 'Yellow',
+		'Orange' => 'Orange',
+		'Green' => 'Green',
+		'Pink' => 'Pink',
+		'Gray' => 'Gray',
+		'L-Blue' => 'L-Blue',
+		'D-Green' => 'D-Green',
+		'Brown' => 'Brown',
+		'Was' => 'was',
+		'Empty' => 'Empty',
+		'Unknown' => 'Unknown',
+	),
+	
+	'Title' => array(
+		'Index' => 'Index',
+		'Admins' => 'Administrator\'s List',
+		'Bans' => 'Banned Users List',
+		'NormalGames' => 'Normal Games List',
+		'NormalGamePlayers' => 'Normal Game Players',
+		'DOTAGames' => 'DOTA Games List',
+		'DOTAGamePlayers' => 'DOTA Game Players',
+		'Players' => 'Player\'s Page',
+		'PlayersList' => 'Players List',
+	),
+
+	'Menu' => array(
+		'Index' => 'Index',
+		'Admins' => 'Admins',
+		'Bans' => 'Bans',
+		'NormalGames' => 'Normal Games',
+		'DOTAGames' => 'DOTA Games',
+		'PlayersList' => 'Players List',
+	),
+	
+	'Index' => array(
+		'Text' => 'Please select an item from the menu.',
+	),
+	
+	'Admins' => array(
+		'Name' => 'Name',
+		'Status' => 'Status',
+		'Realm' => 'Realm',
+	),
+	
+	'Bans' => array(
+		'Name' => 'Name',
+		'Status' => 'Status',
+		'Realm' => 'Realm',
+		'Date' => 'Date',
+		'Reason' => 'Reason',
+	),
+	
+	'NormalGames' => array(
+		'GameName' => 'Game name',
+		'NumberOfPlayers' => 'Number of players',
+		'Duration' => 'Duration',
+		'EndDateTime' => 'End date/time',
+	),
+	
+	'NormalGamePlayers' => array(
+		'TheMapWasX' => 'The map was _MAPNAME_',
+		'TheGameEndedAtX' => 'The game ended at _DATETIME_',
+		'ThereWasXPlayersInThisGame' => 'There was _NUMPLAYERS_ players in this game',
+		'TheGameLastedX' => 'The game lasted _DURATION_',
+		'PlayerName' => 'Player\'s Name',
+		'Status' => 'Status',
+		'Realm' => 'Realm',
+		'LoadingTime' => 'Loading Time',
+		'LeftP' => 'Left %',
+	),
+	
+	'DOTA' => array(
+		'Sentinels' => 'Sentinels',
+		'Scourges' => 'Scourges',
+	),
+	
+	'DOTAGames' => array(
+		'GameName' => 'Game name',
+		'NumberOfPlayers' => 'Number of players',
+		'Match' => 'Match',
+		'Duration' => 'Duration',
+		'EndDateTime' => 'End date/time',
+	),
+	
+	'DOTAGamePlayers' => array(
+		'TheMapWasX' => 'The map was _MAPNAME_',
+		'TheGameEndedAtX' => 'The game ended at _DATETIME_',
+		'ThereWasXPlayersInThisGameForAXMatch' => 'There was _NUMPLAYERS_ players in this game for a _MATCH_ match',
+		'TheGameLastedX' => 'The game lasted _DURATION_',
+		'_DidTheMostAmmountOfKillsWith' => 'did the most ammount of kills with',
+		'DidTheMostAmmountOfKillsWith_' => 'kills',
+		'_DiedTheLeastWith' => 'died the least with',
+		'DiedTheLeastWith_' => 'deaths',
+		'_HaveTheBestKillsDeathsRatioWithAKFOf' => 'have the best kills/deaths ratio with a KD of',
+		'HaveTheBestKillsDeathsRatioWithAKDOf_' => '',
+		'_AssistsDid' => 'did',
+		'AssistsDid_' => 'assists',
+		'Each' => 'each',
+		'End' => '!',
+		'Commas' => ',',
+		'And' => 'and',
+		'PlayerName' => 'Player\'s name',
+		'Status' => 'Status',
+		'Realm' => 'Realm',
+		'LeftP' => 'Left %',
+		'Hero' => 'Hero',
+		'K' => 'K',
+		'D' => 'D',
+		'KD' => 'K/D',
+		'A' => 'A',
+		'CK' => 'CK',
+		'NK' => 'NK',
+		'Kills' => 'Kills',
+		'Deaths' => 'Deaths',
+		'KillsDeathsRatio' => 'Kills/Deaths ratio',
+		'Assists' => 'Assists',
+		'CreepKills' => 'Creep kills',
+		'NeutralKills' => 'Neutral kills',
+	),
+	
+	'PlayersList' => array(
+		'PlayerName' => 'Player\'s name',
+		'Status' => 'Status',
+		'Realm' => 'Realm',
+		'NumberOfGamesPlayed' => 'Number of games played',
+	),
+	
+	'Players' => array(
+		'XHaveAnAverageLoadingTimeOfX' => '_PLAYERNAME_ have an average loading time of _LOADINGTIME_',
+		'HeGayedOutOfXGamesAndLeftATotalOfXGamesBeforeTheEnd' => 'He/She <b>GAYED</b> out of _GOUT_ games and left a total of _LOUT_ games before the end.',
+		'HeLeftXGamesBeforeTheEnd' => 'He/She left _LOUT_ games before the end',
+		'HeNeverLeftBeforeTheEndOfAGame' => 'He/She never left before the end of a game!',
+		'HePlayedATotalTimeOfX' => 'He/She played a total time of _TPTIME_',
+		'AverageKillsPerGamesX' => 'Average Kills per games: _STAT_',
+		'AverageDeathsPerGamesX' => 'Average Deaths per games: _STAT_',
+		'AverageAssistsPerGamesX' => 'Average Assists per games: _STAT_',
+		'GlobalKillsDeathsRatio' => 'Global Kills/Deaths ratio: _STAT_',
+		'GamesWinLost' => 'He/She Won _WON_ game_WON-S_, Lost _LOST_ game_LOST-S_ and played in _UND_ game_UND-S_ without a defined winner.',
+		'GamesIgnored' => '_IGNORED_ game_IGNORED-S_ _WORD_ ignored for leaving prematurely.',
+		'WordSingular' => 'was',
+		'WordPlural' => 'were',
+		'NoGamesWereIgnoredForLeavingPrematurely' => 'No games were ignored for leaving prematurely.',
+		'UndLong' => 'Winner haven\\\'t been determined.', // You need to double escape ' for this one
+		'NormalGames' => 'Normal Games',
+		'Und' => 'Und.',
+		'Won' => 'Won',
+		'Lost' => 'Lost',
+		'GameName' => 'Game name',
+		'Status' => 'Status',
+		'NumberOfPlayers' => 'Number of players',
+		'Match' => 'Match',
+		'LeftOP' => 'Left (%)',
+		'Game' => 'Game',
+		'EndDateTime' => 'End date/time',
+		'Hero' => 'Hero',
+		'K' => 'K',
+		'D' => 'D',
+		'KD' => 'K/D',
+		'A' => 'A',
+		'Kills' => 'Kills',
+		'Deaths' => 'Deaths',
+		'KillsDeathsRatio' => 'Kills/Deaths ratio',
+		'Assists' => 'Assists',
+	),
+	
+);
+
+?>

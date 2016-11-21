@@ -1,0 +1,32 @@
+**************************************************************************
+***  1.1 Beta     ********************************************************
+**************************************************************************
+
+Additions
+- Added the ability to choose to show or hide normal games and/or dota games
+- Implemented the language system
+- Implemented the ability to use multiple GHost++ databases for a single GStats++ installation
+- Added the ability to link replays with DOTA games
+
+Optimisations
+- Better cache support
+- There should be no more PHP timeout errors when the config value 'use_set_time_limit' is set to true
+- More stability in the update sequence
+
+Removals
+- Removed the configuration section for tools since there is still no tools
+
+Bugs - Fixed
+- #? [Problems with Game Players without games]
+- #? [Some replays weren't found because of \/:*?<>| caracters wern't changed to _]
+- #? [Display bug with DOTA items]
+- #? [Problems of ajax content not showing when a notice was generated from PHP]
+
+Bugs - Started
+- #? [Various problems with database connections]
+
+**************************************************************************
+***  1.0 Beta     ********************************************************
+**************************************************************************
+
+- Initial release.
