@@ -45,40 +45,40 @@ $_cfg = array(
 			),
 			
 			/*** sqlite3 ***/
-			'dbh_sqlite3' => array(
+			/*'dbh_sqlite3' => array(
 			
 				'filepath' => './ghost.dbs',	// The path to your sqlite3 database
 				'select_limit' => 2000,			// The limit of selected rows for the updater
 			
-			),
+			),*/
 		
 		),
 		
 		array(
 		
 			'alias' => 'Secondary',
-			'use' => true,
+			'use' => false,
 			'dbh_type' => 'sqlite3',
 
 			'dbh_mysql' => array(
 			
 				'mysqli' => true,
 				'host' => 'localhost',
-				'port' => 0,
+				'port' => 3306,
 				'username' => 'root',
-				'password' => '',
-				'database' => 'dbh',
-				'botid' => 0,
+				'password' => 'mysql',
+				'database' => 'ghost',
+				'botid' => 1,
 				'select_limit' => 2000,
 				
 			),
 
-			'dbh_sqlite3' => array(
+			/*'dbh_sqlite3' => array(
 			
 				'filepath' => './ghost2.dbs',
 				'select_limit' => 2000,
 			
-			),
+			),*/
 		
 		),
 	
