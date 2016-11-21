@@ -297,7 +297,7 @@ class UpdaterDotagameplayers extends Updater implements iUpdater
 							$query_add .= $row['team'] . ', ';
 							$query_add .= $row['colour'] . ', ';
 							$query_add .= $this->_dbs->real_escape_string($row['spoofedrealm']) . ', ';
-							$query_add .= $this->_dbs->real_escape_string($row['dota_id']) . ', ';
+							$query_add .= $this->_dbs->real_escape_string(($row['dota_id']) ? $row['dota_id'] : $row['id']) . ', ';
 							$query_add .= $this->_dbs->real_escape_string($row['dota_kills']) . ', ';
 							$query_add .= $this->_dbs->real_escape_string($row['dota_deaths']) . ', '; 
 							$query_add .= $this->_dbs->real_escape_string($row['dota_creepkills']) . ', '; 
@@ -468,7 +468,7 @@ class UpdaterDotagameplayers extends Updater implements iUpdater
 				
 				if (!isset($new_gameid) || $new_gameid == '' || $new_gameid == 0)
 					$new_gameid = 0;
-						
+
 				$query_add .= '(';
 				
 				$query_add .= 'null, ';
