@@ -56,7 +56,7 @@ $_cfg = array(
 		
 		array(
 		
-			'alias' => 'Secondary',
+			/*'alias' => 'Secondary',
 			'use' => false,
 			'dbh_type' => 'sqlite3',
 
@@ -73,7 +73,7 @@ $_cfg = array(
 				
 			),
 
-			/*'dbh_sqlite3' => array(
+			'dbh_sqlite3' => array(
 			
 				'filepath' => './ghost2.dbs',
 				'select_limit' => 2000,
@@ -135,7 +135,7 @@ $_cfg = array(
 	*****************************************************/
 	'updater' => array(
 	
-		'updaterate' => 0,				// At what rate should the database be updated (minimaly)
+		'updaterate' => 30,				// At what rate should the database be updated (minimaly)
 		'updaterate_stats' => 30,		// At what rate should the global statistics be updated (A value greater then db_updaterate and divisible by db_updaterate is suggested)
 	
 	),
