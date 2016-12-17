@@ -28,7 +28,7 @@ $_cfg = array(
 	
 			'alias' => 'Main',					// THE ALIAS NEEDS TO BE UNIQUE
 			'use' => true,						// Set to true to use this database
-			'dbh_type' => 'mysql',			// The database type to use
+			'dbh_type' => 'mysqli',			// The database type to use
 			
 			/*** mysql ***/
 			'dbh_mysql' => array(
@@ -93,7 +93,7 @@ $_cfg = array(
 	// This is your GStats++ database type
 	// It can be one of the following:
 	//   - mysql
-	'dbs_type' => 'mysql',
+	'dbs_type' => 'mysqli',
 	
 	/*** mysql ***/
 	'dbs_mysql' => array(
