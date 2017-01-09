@@ -452,11 +452,12 @@ class PageDotagameplayers extends Page implements iPage
 			$scourges['deaths_c'] = count($scourges['deaths']);
 			$scourges['kd_c'] = count($scourges['kd']);
 			$scourges['assists_c'] = count($scourges['assists']);
+			$time_zone = "+4 hour";
 
-			if (file_exists(realpath($this->_cfg['replays_folder']) . '/GHost++ ' . date('Y-m-d H-i', $game['datetime']). ' ' . str_replace(array('\\', '/', ':', '*', '?', '<', '>', '|'), '_', $game['gamename']) . ' ' . '(' . sec2min($game['duration']) . ').w3g'))
+			if (file_exists(realpath($this->_cfg['replays_folder']) . '/GHost++ ' . date('Y-m-d H-i', strtotime( $game['datetime'] . $time_zone)). ' ' . str_replace(array('\\', '/', ':', '*', '?', '<', '>', '|'), '_', $game['gamename']) . ' ' . '(' . sec2min($game['duration']) . ').w3g'))
 			{
 				$this->_tpl->assign('show_replays', 1);
-				$this->_tpl->assign('replay_link', 'dlreplay.php?replay=' . rawurlencode('GHost++ ' . date('Y-m-d H-i', $game['datetime']). ' ' . str_replace(array('\\', '/', ':', '*', '?', '<', '>', '|'), '_', $game['gamename']) . ' ' . '(' . sec2min($game['duration']) . ').w3g'));
+				$this->_tpl->assign('replay_link', 'dlreplay.php?replay=' . rawurlencode('GHost++ ' . date('Y-m-d H-i', strtotime($game['datetime'] . $time_zone)). ' ' . str_replace(array('\\', '/', ':', '*', '?', '<', '>', '|'), '_', $game['gamename']) . ' ' . '(' . sec2min($game['duration']) . ').w3g'));
 			}
 			
 			$this->_tpl->assign('gameplayers', $gameplayers);
