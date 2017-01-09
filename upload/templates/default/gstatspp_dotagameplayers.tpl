@@ -607,7 +607,7 @@
 
 <div class="fullcontent">
 	<div style="margin: 0; padding: 10px; width: 1009px; background: #f5f5f5; border-top: 1px #b6b6b6 solid; border-bottom: 1px #b6b6b6 solid; text-align: center;">
-		{{if $show_replays == 1}}<a style="color: darkblue; text-decoration: none;" href="{{$replay_link}}">Download the replay</a>(To see the replay you need to copy the map to w3 folder \Maps\DotA v6.83d.w3x)<br />{{/if}}
+		{{if $show_replays == 1}}<a style="color: darkblue; text-decoration: none;" href="{{$replay_link}}">Download the replay</a><br />(To see the replay you need to copy the map to w3 folder \Maps\DotA v6.83d.w3x)<br />{{/if}}
 		<a style="color: darkblue; text-decoration: none;" id="showhidelink" href="#">Show/Hide the result</a><br />
 		<div id="preshowhide">
 			<span style="color: #000; font-size: 32px; font-weight: bold; font-family: Calibri;">And the winner is...</span>
